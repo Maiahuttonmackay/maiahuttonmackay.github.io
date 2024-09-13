@@ -1,0 +1,171 @@
+html {
+    margin: 0px;
+}
+
+<h1>
+    <span style="font-size: 36px;">WHAT</span>
+    <span style=”stacked” font-size: 18px;”>Would<br>Carrie</span>
+    <span style="font-size: 36px;">WEAR?</span>
+
+</h1>
+
+.large {
+    font-size: 36px;
+}
+.small {
+    font-size: 18px;
+}
+
+
+
+    #option_your_clothes{
+        text-align: center;
+    }
+
+body > main > article > main > p {
+    font-size: 20px;
+}
+
+body > header > nav >  {
+    background-color: plum;
+    color:rgb(255, 34, 156);
+    margin: 0px;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkolivegreen;
+    margin: 0px;
+    font-size: 5vpw;
+    background-color:lightpink ;
+}
+
+p{
+    font-size: 0.5em;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Cinzel", sans-serif;
+    background-color:darkolivegreen;
+    color:rgb(251, 78, 190);
+    margin: 0px;
+    box-shadow: 10px, 10px, 15px, 5px black;
+    text-align: center;
+    font-size: 50px;
+}
+
+body > #carrie_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+   margin: 0px; 
+}
+
+.navbutton {
+    list-style: none;
+    color: darkolivegreen;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+    font-family: "Cinzel", 'Times New Roman', Times, serif;
+}
+
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 18px;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+form {
+   text-align: center; 
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+text-align: center;
+}
+
+body > footer {
+    background-color: plum;
+}
+
+img{
+    border-radius: 0%;
+    width: 20vh;
+    text-align: center;
+}
+
+#option_your_clothes{
+    display: flex;
+    align-items: center;
+    
+}
+
+aside > section > nav > ul > li {
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    list-style: none;
+    border-radius: 20%;
+}
+
+body > footer {
+background-color: darkolivegreen;
+h2 {
+    color: rgb(255, 34, 156);
+}
+
+}
+
+#submit_box {
+    border: 1px;
+    background-color:palegoldenrod ;
+    padding: 12px;
+    margin:centre;
+}

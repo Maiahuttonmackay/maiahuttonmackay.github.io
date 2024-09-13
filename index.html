@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatWouldCarrieWear?</title>
+    <title>Different Sizes in H1</title>
+    <title>Stack Words</title>
+    <title>Two Carousels</title>
+
+    <style>
+        .large {
+            font-size: 36px;
+        }
+        .small {
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <Header>
+        <!-- This is the content of the header -->
+         <h1 id="logo">
+            <span class="large">What</span>
+            <span class=”stacked”“small”>Would<br>Carrie</span>
+            <span class="large">wear?</span>
+         </h1>
+        
+    </Header>
+<main>
+    <article>
+      <header>
+        <!-- articles header goes here -->
+         <h2>Do you need help choosing what to wear?</h2>
+         <h3>Let Carrie Br(ai)dshaw chose for you!</h3>
+      </header> 
+      <main>
+
+        <p>
+            Introducing What Would Carrie Wear?, an AI-powered bot trained to generate fashion-forward outfits inspired by Carrie Bradshaw's iconic looks from Sex and the City. Drawing from her bold, eclectic style, the bot curates unique ensembles by blending your own wardrobe with vintage pieces and daring accessories. Whether you're after a signature tutu-and-heels combo or a chic power suit, What Would Carrie Wear recreates the character's fearless fashion choices while offering modern twists. Ideal for anyone looking to channel their inner Carrie, the bot delivers personalized outfit recommendations that capture her spirit of individuality and bold creativity. Simply upload photos of the clothes you want to wear for your fabulous event, select the item you would like Carrie to finalise for you, and press send to recieve Ms Br(ai)dshaw's style advice!
+        </p>
+        
+        <br>
+
+        <form action="">
+            <label for="bio">Upload photos of your own clothes here:</label>
+            <textarea name="bio" id="bio" cols="5" rows="5"></textarea>
+        </form>
+    
+        <br>
+
+        
+
+        <article>
+            <div class="carousel" id="carousel1" data-current-index="0">
+                <!-- Previous Button -->
+                <button class="prev" onclick="moveSlide(-1, 'carousel1')">&#10094;</button>
+                
+                <!-- Carousel Images -->
+                <div class="carousel-images">
+                    <img src="https://media-photos.depop.com/b0/27222163/1232490943_6e73005525a344d79ab663c9fcc81b55/P0.jpg" alt="Leopard print Dolce and Gabbana top">
+                    <img src="https://media-photos.depop.com/b0/27222163/1264043403_d377ea81748a46b0a63d9c5e21318bb7/P0.jpg" alt="Floral brightly coloured Dolce and Gabanna top">
+                    <img src="https://media-photos.depop.com/b0/27222163/1231213487_c12155b8467547f2a62ae8a1851421dc/P0.jpg" alt="Pinstriped and asymmetrical one shouldered corset top.">
+                    <img src="https://media-photos.depop.com/b1/27222163/1448350231_d82e5081e73a403baec566f2f6ff6ce1/P0.jpg" alt="One shoulder Karen Millen top with sequined design">
+                    <img src="https://media-photos.depop.com/b0/27222163/1265862311_63b1f1967fe84a7d9120ce7bafd0a690/P0.jpg" alt="Victoria’s Secret pink satin and lace top.">
+                </div>
+                
+                <!-- Next Button -->
+                <button class="next" onclick="moveSlide(1, 'carousel1')">&#10095;</button>
+            </div>
+        </article>
+        
+        <article>
+            <div class="carousel" id="carousel2" data-current-index="0">
+                <!-- Previous Button -->
+                <button class="prev" onclick="moveSlide(-1, 'carousel2')">&#10094;</button>
+                
+                <!-- Carousel Images -->
+                <div class="carousel-images">
+                    <img src="https://media-photos.depop.com/b0/27222163/1298225703_01fc0db3b2f249f1bc73e56273fb1c25/P0.jpg" alt="Brown asymmetrical brown skirt with super cool print">
+                    <img src="https://media-photos.depop.com/b1/27222163/1481411192_25173504c58b49a18a1ee797b4514844/P0.jpg" alt="Pink embroidered cargo trousers">
+                    <img src="https://media-photos.depop.com/b0/27222163/1264023190_4a48ec00302841f8bfacdaa495ef89ef/P0.jpg" alt="Miss Sixty pleated denim skirt">
+                    <img src="https://media-photos.depop.com/b1/27222163/1482691628_a6826c0fd13a4742973e40a878dd52e3/P0.jpg" alt="Embroidered cargo style pants">
+                </div>
+                
+                <!-- Next Button -->
+                <button class="next" onclick="moveSlide(1, 'carousel2')">&#10095;</button>
+            </div>
+        </article>
+        
+        <!-- Link your external JavaScript file -->
+        <script src="script.js"></script>
+
+        
+
+        <br>
+        <article id="options_your_clothes">
+            <form action=""></form>
+
+            <label for="shirt_choice">Shirt Choice</label>
+            <select name="shirt_choice" id="shirt_choice">
+                <option value="Option_1">Option 1</option>
+                <option value="Option_2">Option 2</option>
+                <option value="Option_3">Option 3</option>
+                <option value="Option_4">Option 4</option>
+                <option value="Option_5">Option 5</option>
+            </select>
+            
+            <label for="bottoms_choice">Bottoms Choice</label>
+            <select name="bottoms_choice" id="bottoms_choice">
+                <option value="Option_1">Option 1</option>
+                <option value="Option_2">Option 2</option>
+                <option value="Option_3">Option 3</option>
+                <option value="Option_4">Option 4</option>
+                
+            </select>
+
+
+        </article>
+        
+      </main> 
+      <footer>
+        <h2>
+            <blockquote>
+                "Men I may not know, but shoes, shoes I know!" - <cite>Carrie Bradshaw, 2002</cite>
+            </blockquote>
+        </h2>
+        <br>
+        <h3> Need some inspiration?</h3>
+        <br>
+        
+        <aside>
+        
+            <section>
+                <h4>Filter by Catagory</h4>
+                <nav>
+                    <ul>
+                        <li onclick=""><a href=""></a>Fabulous party</li>
+                        <li onclick=""><a href=""></a>Lunch with Miranda, Charlotte, and Sam</li>
+                        <li onclick=""><a href=""></a>Running into an ex</li>
+                        <li onclick><a href=""></a>Writing my colum in a New York Cafe</li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+        <br>
+      </footer>
+    </article>
+    <article>
+      <header>
+        <!-- artticles header goes here -->
+         <h2></h2>
+         <h3></h3>
+      </header> 
+      <main>
+        
+
+      </main> 
+      <footer>
+        <article> 
+            <img src="https://www.refinery29.com/images/11419423.jpg?format=webp&width=1090&height=1308&quality=85/50/75" alt="Carrie weraing the iconic tutu from the title sequence" height="150vh">
+            <img src="https://media.beaut.ie/uploads/2018/06/08114622/carrie20.jpg" alt="Carrie running in the rain wearing shorts and high heels" height="150vh" width="5px"> 
+
+            <img src="https://media.vogue.co.uk/photos/6001819c6901ddea577284f1/master/w_1280,c_limit/shutterstock_editorial_5886159ar.jpg" alt="Carrie wearing pink floral dress." height="150vh" width="80vw">
+            <img src="https://www.refinery29.com/images/11417749.jpeg?format=webp&width=414&height=627&quality=85" alt="Carrie wearing a casual top and cargo pants." height="150vh">
+
+            <img src="https://www.instyle.com/thmb/TDtH9nUnXERf4yCUJiIV7o0sAuo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/051210-Carrie-31-350_1-e08c7336098a46a8ba18441944a2c181.jpg" alt="Carrie shopping wearing bright floral dress" height="150vh">
+
+            <img src="https://www.refinery29.com/images/11419354.png?format=webp&width=658&height=777&quality=85" alt="Carrie wearing silver dress and smoking." height="150vh">
+
+            
+        </article>
+    
+
+        <br>
+        <br>
+        <a href="https://www.vogue.co.uk/fashion/article/carrie-bradshaw-outfits"target="_blank">Vogue's top picks</a>
+
+        <br>
+      </footer>
+    </article>
+    
+    <!-- Main content of the website goes here -->
+    <article id="submit_box">
+        <h2>Almost there... answer these questions, press send and Carrie Br(ai)dshaw will solve your fashion dilemas!</h2>
+
+        <form action="">
+        
+            <br>
+            <label for="clothing_item">Clothing Item You Need:</label>
+    
+            <input type="radio" name="clothing_item" id="shirt" value="shirt">
+            <label for="shirt">Shirt</label>
+    
+            <input type="radio" name="clothing_item" id="skirt/trousers" value="skirt/trousers">
+            <label for="skirt/trousers">Skirt or Trousers</label>
+    
+            <input type="radio" name="clothing_item" id="shoes" value="shoes">
+            <label for="shoes">Shoes</label>
+            
+            <br>
+            <label for="brand">Carrie Aproved Brand:</label>
+            <select name="brand" id="brand">
+                <option value="Manolo_Blahnik">Manolo Blahnik</option>
+                <option value="Frendi">Fendi</option>
+                <option value="Christian_Dior">Christian Dior</option>
+                <option value="Prada">Prada</option>
+                <option value="Dolce_Gabbana">Dolce and Gabbana</option>
+                <option value="Gucci">Gucci</option>
+                <option value="Channel">Channel</option>
+            </select>
+            <br>
+            <label for="bio">Describe the event:</label>
+            <textarea name="bio" id="bio" cols="30" rows="1"></textarea>
+            <br>
+            <input type="checkbox" name="wildcard" id="wildcard">
+            <label for="wildcard">Give me a wildcard!</label>
+            <br>
+            <input type="submit" value="Send!">
+        </form>
+    </article>
+     
+</main>
+
+<footer>
+    <h2>Created by Maia Hutton Mackay</h2>
+    <section>
+        <nav>
+            <ul>
+                <div>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About u</a>s</li>
+                    <li><a href="">Contact u</a>s</li>
+                    <li><a href="">Careers</a></li>
+                </div>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Cookies Policy</a></li>
+                <div>
+            </ul>
+        </nav>
+    </section>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
